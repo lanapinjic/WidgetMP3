@@ -11,5 +11,5 @@ export default defineConfig({
                   '/auth': 'http://localhost:5001',
                   '/player': 'http://localhost:5001'
             }
-      }
+      },
 });

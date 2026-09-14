@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import WaitingPage from './components/WaitingPage';
 
 function Playback() {
     const [track, setTrack] = useState(null)
@@ -25,7 +26,10 @@ function Playback() {
         fetchNowPlaying() // refresh immediately after sending a command
     }
 
-    if (!track) return <p>Nothing playing right now</p>
+    if (!track) return (
+        //function to show the header being a ready to play or currently playing ...
+        <WaitingPage />
+    )
 
     return (
         <div>

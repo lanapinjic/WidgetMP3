@@ -1,0 +1,33 @@
+.waiting-page {
+    text-align: center;
+}
+
+.waiting-page p {
+    font-family: "Inter", sans-serif;
+    color: #9A9DB2;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.spotify-button{
+    width: 85%;
+}
+
+.yakul-waiting-animation {
+    width: 92%;
+    border-radius: 12px;
+}
+
+.background-music {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.background-music p{
+    color: #734242;
+    font-weight: bold;
+    font-size: 8px;
+}

@@ -11,13 +11,12 @@ if (started) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 292,
-    height: 430,
-    // resizable: false,
+    width: 280,
+    height: 400,
+    resizable: false,
     // maximizable: false,
     // fullscreenable: false,
-    // frame: false,
-    // transparent: false,
+    frame: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
