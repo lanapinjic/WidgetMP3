@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import PlaybackStatus from './PlaybackStatus';
 import WaitingPage from './WaitingPage';
+import NowPlaying from './NowPlaying';
 
 function Playback() {
     const [track, setTrack] = useState(null)
@@ -37,14 +38,7 @@ function Playback() {
     return (
         <div>
             <PlaybackStatus input="" />
-            <img src={track.album.images[0].url} alt="" width={200} />
-            <p>{track.name} — {track.artists[0].name}</p>
-
-            <button onClick={() => sendCommand('previous')}>Prev</button>
-            <button onClick={() => sendCommand(isPaused ? 'play' : 'pause')}>
-                {isPaused ? 'Play' : 'Pause'}
-            </button>
-            <button onClick={() => sendCommand('next')}>Next</button>
+            <NowPlaying sendCommand={sendCommand} isPaused={isPaused} track={track} />
         </div>
     )
 }

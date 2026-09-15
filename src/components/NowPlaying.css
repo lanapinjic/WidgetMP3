@@ -1,0 +1,17 @@
+.now-playing-page{
+    text-align: center;
+    height: 100vh;
+}
+
+.song-image{
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 15%;
+}
+
+.now-playing-page p{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #6B6E82;
+}
