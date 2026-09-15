@@ -7,11 +7,16 @@ import MusicBars from '../assets/MusicBars.svg'
 
 
 const WaitingPage = () => {
+    const openSpotify = event => {
+        <a href="spotify:" class="button">Open Spotify</a>
+    };
+
+
     return (
         <div>
             <div className="waiting-page">
                 <p>Time to play some music on Spotify </p>
-                <img src={OpenSpotifyButton} alt="open-spotify-button" className='spotify-button'/>
+                <img src={OpenSpotifyButton} alt="open-spotify-button" className='spotify-button' onClick={() => window.electronAPI.openSpotify()}/>
                 <p>While you wait, Yakul will keep you company. </p>
                 <img src={WaitingAnimation} alt="animation" className='yakul-waiting-animation'/>
                 <div className="background-music">
