@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import Playback from './Playback'
-import Login from './Login'
+import Playback from './components/Playback'
+import Login from './components/Login'
 import './App.css';
 import DragIcon from './assets/DragIcon.png';
 

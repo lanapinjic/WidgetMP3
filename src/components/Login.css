@@ -1,0 +1,42 @@
+.login-page {
+    text-align: center;
+    height: 100vh;
+}
+
+.login-page p {
+    font-family: "Inter", sans-serif;
+    color: #9A9DB2;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.footer-text {
+    display: flex;
+    gap: 4px;
+}
+
+.footer a {
+    color: #734242;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.totoro-animation{
+    width: 35%;
+}
+
