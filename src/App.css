@@ -5,6 +5,8 @@ html, body, #root {
 }
 
 .app-container {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100%;
     background-image: url('./assets/background.svg');
@@ -14,7 +16,6 @@ html, body, #root {
 }
 .bar {
     display: flex;
-    gap: 10px;
 }
 
 .drag-icon {

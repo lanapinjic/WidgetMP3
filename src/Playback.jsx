@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import PlaybackStatus from './PlaybackStatus';
 import WaitingPage from './components/WaitingPage';
 
 function Playback() {
@@ -27,12 +28,15 @@ function Playback() {
     }
 
     if (!track) return (
-        //function to show the header being a ready to play or currently playing ...
-        <WaitingPage />
+        <>
+            <PlaybackStatus input="waiting" />
+            <WaitingPage />
+        </>
     )
 
     return (
         <div>
+            <PlaybackStatus input="" />
             <img src={track.album.images[0].url} alt="" width={200} />
             <p>{track.name} — {track.artists[0].name}</p>
 

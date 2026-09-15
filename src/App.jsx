@@ -3,7 +3,6 @@ import Playback from './Playback'
 import Login from './Login'
 import './App.css';
 import DragIcon from './assets/DragIcon.png';
-import liveIndicator from './assets/live-indicator.svg';
 
 function App() {
     // Empty string = not logged in yet. Once we get a real token, this flips.
@@ -21,8 +20,6 @@ function App() {
     return (
         <div className="app-container">
             <div className="bar">
-                <img src={liveIndicator} alt="live-icon" className='live-icon'/>
-                <p>READY TO PLAY</p>
                 <img src={DragIcon} alt="drag-icon" className='drag-icon'/>
             </div>
             {token === '' ? <Login/> : <Playback token={token}/>}
