@@ -3,15 +3,9 @@ import WaitingAnimation from '../assets/YakulWaiting.gif';
 import YakulWaitingMusic from '../assets/YakulWaitingMusic.mp3'
 import OpenSpotifyButton from '../assets/OpenSpotifyButton.svg'
 import MusicBars from '../assets/MusicBars.svg'
-// import liveIndicator from '../assets/live-indicator.svg'
 
 
 const WaitingPage = () => {
-    const openSpotify = event => {
-        <a href="spotify:" class="button">Open Spotify</a>
-    };
-
-
     return (
         <div>
             <div className="waiting-page">
