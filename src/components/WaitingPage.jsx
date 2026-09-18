@@ -1,6 +1,5 @@
 import './WaitingPage.css';
 import gigi from '../assets/gigi.gif'
-import gigiWha from '../assets/gigiWha.gif'
 import YakulWaitingMusic from '../assets/YakulWaitingMusic.mp3'
 import OpenSpotifyButton from '../assets/OpenSpotifyButton.svg'
 import MusicBars from '../assets/MusicBars.svg'
