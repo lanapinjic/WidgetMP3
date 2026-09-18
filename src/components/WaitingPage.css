@@ -6,23 +6,30 @@
     font-family: "Inter", sans-serif;
     color: #9A9DB2;
     font-size: 11px;
+}
+
+.waiting-page-title {
     margin-left: 5px;
     margin-right: 5px;
-    padding: 5px;
+    margin-bottom: 30px;
+    padding-top: 70px;
 }
 
 .spotify-button{
     width: 85%;
 }
 
-.yakul-waiting-animation {
-    width: 92%;
-    border-radius: 12px;
+.waiting-footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
 }
 
 .background-music {
-    margin: 10px;
     display: flex;
+    align-items: center;
+    margin: 10px;
     gap: 10px;
 }
 
@@ -30,4 +37,9 @@
     color: #734242;
     font-weight: bold;
     font-size: 8px;
+}
+
+.waiting-animation {
+    height: 90px;
+    width: auto;
 }

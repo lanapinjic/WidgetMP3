@@ -25,7 +25,7 @@ function Playback() {
 
     async function sendCommand(action) {
         await fetch(`/player/${action}`, { method: 'PUT' })
-        fetchNowPlaying() // refresh immediately after sending a command
+        fetchNowPlaying()
     }
 
     if (!track) return (

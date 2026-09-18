@@ -1,5 +1,6 @@
 import './WaitingPage.css';
-import WaitingAnimation from '../assets/YakulWaiting.gif';
+import gigi from '../assets/gigi.gif'
+import gigiWha from '../assets/gigiWha.gif'
 import YakulWaitingMusic from '../assets/YakulWaitingMusic.mp3'
 import OpenSpotifyButton from '../assets/OpenSpotifyButton.svg'
 import MusicBars from '../assets/MusicBars.svg'
@@ -9,13 +10,14 @@ const WaitingPage = () => {
     return (
         <div>
             <div className="waiting-page">
-                <p>Time to play some music on Spotify </p>
+                <p className="waiting-page-title" >Time to play some music on Spotify </p>
                 <img src={OpenSpotifyButton} alt="open-spotify-button" className='spotify-button' onClick={() => window.electronAPI.openSpotify()}/>
-                <p>While you wait, Yakul will keep you company. </p>
-                <img src={WaitingAnimation} alt="animation" className='yakul-waiting-animation'/>
-                <div className="background-music">
-                    <img src={MusicBars} alt="music-bars-icon" className='music-bars'/>
-                    <p> secret forest - Studio Ghibli </p>
+                <div className="waiting-footer">
+                    <div className="background-music">
+                        <img src={MusicBars} alt="music-bars-icon" className='music-bars'/>
+                        <p> secret forest - Studio Ghibli </p>
+                    </div>
+                    <img src={gigi} alt="waiting-animation" className='waiting-animation'/>
                 </div>
             </div>
             <audio src={YakulWaitingMusic} autoPlay loop />
