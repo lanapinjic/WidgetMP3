@@ -2,9 +2,13 @@
 
 A lightweight Electron desktop widget for controlling Spotify playback. Log in once, then see what's currently playing (or a waiting screen when nothing is) and control playback — all from a small, frameless, draggable widget window.
 
-https://youtu.be/QeVKx5eJeb4
 
 
+## Project Demo
+
+<a href="https://youtu.be/QeVKx5eJeb4">
+  <img width="600" height="322" alt="demo-thumbnail" src="https://github.com/user-attachments/assets/16ea5553-d831-4517-94f3-07d5b85067f4" />
+</a>
 
 ## How it works
 
