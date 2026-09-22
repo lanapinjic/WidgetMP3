@@ -3,6 +3,12 @@
 A lightweight Electron desktop widget for controlling Spotify playback. Log in once, then see what's currently playing (or a waiting screen when nothing is) and control playback — all from a small, frameless, draggable widget window.
 
 
+## How it works
+
+Widget MP3 doesn't play audio itself — it's a **remote control**, not a player. It reads and controls whatever is already playing on your phone, desktop Spotify app, or speaker, using Spotify's Web API. This avoids the DRM/Widevine requirements that in-app audio playback would need, keeping the app simple and lightweight.
+
+<img width="816" height="339" alt="Screenshot 2026-09-22 at 6 03 04 PM" src="https://github.com/user-attachments/assets/fb31b5c9-af05-4b2b-b52b-64801c4b4f39" />
+
 
 ## Project Demo
 
@@ -10,11 +16,6 @@ A lightweight Electron desktop widget for controlling Spotify playback. Log in o
   <img width="600" height="322" alt="demo-thumbnail" src="https://github.com/user-attachments/assets/16ea5553-d831-4517-94f3-07d5b85067f4" />
 </a>
 
-## How it works
-
-Widget MP3 doesn't play audio itself — it's a **remote control**, not a player. It reads and controls whatever is already playing on your phone, desktop Spotify app, or speaker, using Spotify's Web API. This avoids the DRM/Widevine requirements that in-app audio playback would need, keeping the app simple and lightweight.
-
-<img width="816" height="339" alt="Screenshot 2026-09-22 at 6 03 04 PM" src="https://github.com/user-attachments/assets/fb31b5c9-af05-4b2b-b52b-64801c4b4f39" />
 
 
 **Architecture:**
