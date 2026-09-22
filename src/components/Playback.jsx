@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import PlaybackStatus from './PlaybackStatus';
-import WaitingPage from './WaitingPage';
-import NowPlaying from './NowPlaying';
+import PlaybackStatus from './helpers/playbackStatus/PlaybackStatus';
+import WaitingPage from './waiting/WaitingPage';
+import NowPlaying from './nowPlaying/NowPlaying';
 
 function Playback() {
     const [track, setTrack] = useState(null)

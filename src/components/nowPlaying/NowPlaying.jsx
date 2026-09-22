@@ -1,8 +1,8 @@
 import './NowPlaying.css';
-import PreviousTrackButtonAction from "../assets/PreviousTrackButtonAction.svg";
-import NextTrackButtonAction from "../assets/NextTrackButtonAction.svg";
-import PauseButtonAction from "../assets/PauseButtonAction.svg";
-import PlayButtonAction from "../assets/PlayButtonAction.svg";
+import PreviousTrackButtonAction from "../../assets/PreviousTrackButtonAction.svg";
+import NextTrackButtonAction from "../../assets/NextTrackButtonAction.svg";
+import PauseButtonAction from "../../assets/PauseButtonAction.svg";
+import PlayButtonAction from "../../assets/PlayButtonAction.svg";
 
 function NowPlaying({ sendCommand, isPaused, track }) {
     return (

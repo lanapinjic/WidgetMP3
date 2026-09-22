@@ -1,8 +1,8 @@
 import './WaitingPage.css';
-import GigiAnimation from '../assets/GigiAnimation.gif'
-import WaitingMusic from '../assets/WaitingMusic.mp3'
-import OpenSpotifyButton from '../assets/OpenSpotifyButton.svg'
-import MusicBars from '../assets/MusicBars.svg'
+import GigiAnimation from '../../assets/GigiAnimation.gif'
+import WaitingMusic from '../../assets/WaitingMusic.mp3'
+import OpenSpotifyButton from '../../assets/OpenSpotifyButton.svg'
+import MusicBars from '../../assets/MusicBars.svg'
 
 
 const WaitingPage = () => {

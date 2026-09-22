@@ -1,6 +1,6 @@
 import './Login.css';
-import LoginSpotifyButton from "../assets/LoginSpotifyButton.svg";
-import TotoroWalking from "../assets/TotoroWalking.gif";
+import LoginSpotifyButton from "../../assets/LoginSpotifyButton.svg";
+import TotoroWalking from "../../assets/TotoroWalking.gif";
 
 function Login() {
     return (
