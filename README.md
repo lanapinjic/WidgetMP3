@@ -1,4 +1,4 @@
-# Mini Widget MP3
+# Widget MP3
 
 A lightweight Electron desktop widget for controlling Spotify playback. Log in once, then see what's currently playing (or a waiting screen when nothing is) and control playback — all from a small, frameless, draggable widget window.
 
