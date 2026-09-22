@@ -1,6 +1,6 @@
 import './WaitingPage.css';
-import gigi from '../assets/gigi.gif'
-import YakulWaitingMusic from '../assets/YakulWaitingMusic.mp3'
+import GigiAnimation from '../assets/GigiAnimation.gif'
+import WaitingMusic from '../assets/WaitingMusic.mp3'
 import OpenSpotifyButton from '../assets/OpenSpotifyButton.svg'
 import MusicBars from '../assets/MusicBars.svg'
 
@@ -16,10 +16,10 @@ const WaitingPage = () => {
                         <img src={MusicBars} alt="music-bars-icon" className='music-bars'/>
                         <p> secret forest - Studio Ghibli </p>
                     </div>
-                    <img src={gigi} alt="waiting-animation" className='waiting-animation'/>
+                    <img src={GigiAnimation} alt="waiting-animation" className='waiting-animation'/>
                 </div>
             </div>
-            <audio src={YakulWaitingMusic} autoPlay loop />
+            <audio src={WaitingMusic} autoPlay loop />
         </div>
     );
 };
