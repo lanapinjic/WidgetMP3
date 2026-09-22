@@ -9,8 +9,8 @@ function Playback() {
 
     useEffect(() => {
         // Poll every 3 seconds to check what's currently playing
+        fetchNowPlaying()
         const interval = setInterval(fetchNowPlaying, 3000)
-        fetchNowPlaying() // also run once immediately
         return () => clearInterval(interval)
     }, [])
 
@@ -20,6 +20,11 @@ function Playback() {
         if (data && data.item) {
             setTrack(data.item)
             setIsPaused(!data.is_playing)
+        }
+        else{
+            //reset to default values
+            setTrack(null)
+            setIsPaused(true)
         }
     }
 
